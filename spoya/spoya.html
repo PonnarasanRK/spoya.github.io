@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>SPOYA.in.com</title>
+    <title>SPOYA.in</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>POYA.in</title>
     <style>
         body {
-            font-family:Arial, Helvetica, sans-serif;
-            margin: 0;
-            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0 auto;
+            padding: 0 auto;
             background-color: #f4f4f4;
         }
 
@@ -21,9 +20,9 @@
         }
 
         main {
-            max-width: 1200px;
+            max-width: 1200px auto;
             margin: 20px auto;
-            padding: 20px;
+            padding: 20px auto;
             background-color: #fff;
         }
 
@@ -36,19 +35,36 @@
             width: 200px;
         }
 
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 0px;
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
 
         .product img {
             max-width: 100%;
             height: auto;
+        }
+
+        .price-container {
+            background-color: #333;
+            color: #fff;
+            padding: 5px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        /* Media Query for Small Screens (Mobile Devices) */
+        @media only screen and (max-width: 767px) {
+            main {
+                padding: 10px auto;
+            }
+
+            .product {
+                width: 100% auto;
+            }
+        }
+
+        /* Media Query for Larger Screens (Computers) */
+        @media only screen and (min-width: 768px) {
+            .product {
+                width: 200px auto; /* Adjust as needed for larger screens */
+            }
         }
     </style>
 </head>
@@ -62,6 +78,8 @@
         <div class="product">
             <img src="images/sp01.JPG" alt="product 1">
             <h1>SP01</h1>
+            <p>Full Sleeve Kurti</p>
+            <div class="price-container"></div>
             <p>&#8377;1199.00</p>
             
         </div>
@@ -70,6 +88,8 @@
         <div class="product">
             <img src="images/sp02.JPG" alt="Product 2">
             <h1>SP02</h1>
+            <p>Full Sleeve Georgette Kurti</p>
+            <div class="price-container"></div>
             <p>&#8377;1199.00</p>
             
         </div>
@@ -77,33 +97,461 @@
         <div class="product">
             <img src="images/sp03.JPG" alt="Product 3">
             <h1>SP03</h1>
+            <p>Flary Umbrella Top</p>
+            <div class="price-container"></div>
             <p>&#8377;1599.00</p>
             
         </div>
 
         <div class="product">
-            <img src="images/sp04.JPG" alt="Product 2">
+            <img src="images/sp04.JPG" alt="Product 4">
             <h1>SP04</h1>
+            <p>Long 4 Layered Maxi</p>
+            <div class="price-container"></div>
             <p>&#8377;1799.00</p>
             
         </div>
 
         <div class="product">
-            <img src="images/sp05.PNG" alt="Product 2">
+            <img src="images/sp05.PNG" alt="Product 5">
             <h1>SP05</h1>
+            <p>Marble Green Maxi</p>
+            <div class="price-container"></div>
             <p>&#8377;1599.00</p>
             
         </div>
 
-        
+        <div class="product">
+            <img src="images/sp07.PNG" alt="Product 6">
+            <h1>SP07</h1>
+            <p>Rose garden maxi</p>
+            <div class="price-container"></div>
+            <p>&#8377;1599.00</p>
+            
+        </div>
+
+        <div class="product">
+            <img src="images/sp08.PNG" alt="Product 7">
+            <h1>SP08</h1>
+            <p>Flaunting Fine wine gown</p>
+            <div class="price-container"></div>
+            <p>&#8377;1999.00</p>
+            
+        </div>
+
+        <div class="product">
+            <img src="images/sp09.PNG" alt="Product 8">
+            <h1>SP09</h1>
+            <p>Bridgeton inspired Orange Organza gown</p>
+            <div class="price-container"></div>
+            <p>&#8377;1999.00</p>
+            
+        </div>
+
+       
+        <div class="product">
+            <img src="images/sp10.PNG" alt="Product 9">
+            <h1>SP10</h1>
+            <p>Pinklove flaunting gown 🌸</p>
+            <div class="price-container"></div>
+            <p>&#8377;1999.00</p>
+            
+        </div>
+
+        <div class="product">
+            <img src="images/sp12.PNG" alt="Product 10">
+            <h1>SP12</h1>
+            <p> vintage feel maxi🩷</p>
+            <div class="price-container"></div>
+            <p>&#8377;1999.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp13.jpg" alt="Product 11">
+            <h1>SP13</h1>
+            <p>Full sleeve kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;999.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp14.PNG" alt="Product 12">
+            <h1>SP14</h1>
+            <p>FGreenery maxi</p>
+            <div class="price-container"></div>
+            <p>&#8377;1599.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp17.png" alt="Product 13">
+            <h1>SP17</h1>
+            <p>Barbie special collection 💗</p>
+            <div class="price-container"></div>
+            <p>&#8377;1799.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp20.jpg" alt="Product 14">
+            <h1>SP20</h1>
+            <p>Full sleeve kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp21.jpg" alt="Product 15">
+            <h1>SP21</h1>
+            <p>Full sleeve kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp22.jpg" alt="Product 16">
+            <h1>SP22</h1>
+            <p>Full sleeve kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;999.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp23.jpg" alt="Product 17">
+            <h1>SP23</h1>
+            <p>Full sleeve kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;999.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp24.jpg" alt="Product 18">
+            <h1>SP24</h1>
+            <p>Onam special kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp27.jpg" alt="Product 19">
+            <h1>SP27</h1>
+            <p>Full sleeve Anarkali</p>
+            <div class="price-container"></div>
+            <p>&#8377;1599.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp29.jpg" alt="Product 20">
+            <h1>SP29</h1>
+            <p>Full sleeve kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp30.jpg" alt="Product 21">
+            <h1>SP30</h1>
+            <p>Full sleeve kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp31.jpg" alt="Product 22">
+            <h1>SP31</h1>
+            <p>Full sleeve kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp32.jpg" alt="Product 23">
+            <h1>SP32</h1>
+            <p>Full sleeve kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp33.jpg" alt="Product 24">
+            <h1>SP33</h1>
+            <p>Full sleeve kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp34.jpg" alt="Product 25">
+            <h1>SP34</h1>
+            <p>Full sleeve kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp35.jpg" alt="Product 26">
+            <h1>SP35</h1>
+            <p>Chinnon fullsleeve Kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp36.jpg" alt="Product 27">
+            <h1>SP36</h1>
+            <p>Full sleeve kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp37.jpg" alt="Product 28">
+            <h1>SP37</h1>
+            <p> Organza kurti with duppata</p>
+            <div class="price-container"></div>
+            <p>&#8377;1599.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp38.jpg" alt="Product 29">
+            <h1>SP38</h1>
+            <p>Full sleeve kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp39.jpg" alt="Product 30">
+            <h1>SP39</h1>
+            <p> Chinnon Full sleeve Kurti </p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp40.jpg" alt="Product 31">
+            <h1>SP40</h1>
+            <p> Full sleeve Kurti </p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp41.jpg" alt="Product 32">
+            <h1>SP41</h1>
+            <p> Full sleeve Kurti </p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp42.jpg" alt="Product 33">
+            <h1>SP42</h1>
+            <p> Chinnon Full sleeve Kurti </p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp43.jpg" alt="Product 34">
+            <h3>"THARA"</h3>
+            <h1>SP43</h1>
+            <p> Full sleeve sequence Gown </p>
+            <div class="price-container"></div>
+            <p>&#8377;2099.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp44.jpg" alt="Product 35">
+            <h1>SP44</h1>
+            <p> Full sleeve sequence Gown </p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp45.jpg" alt="Product 36">
+            <h5>"HENNA"</h5>
+            <h1>SP45</h1>
+            <p> Full sleeve Anarkali </p>
+            <div class="price-container"></div>
+            <p>&#8377;1799.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp46.jpg" alt="Product 37">
+            <h1>SP46</h1>
+            <p> Full sleeve Kurti </p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp47.jpg" alt="Product 38">
+            <h1>SP47</h1>
+            <p>Banarasi side slit kurti✨</p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp48.jpg" alt="Product 39">
+            <h5>"KRITHIKA"</h5>
+            <h1>SP48</h1>
+            <p> Full sleeve Anarkali with duppata </p>
+            <div class="price-container"></div>
+            <p>&#8377;1799.00</p>
+        </div>
+        <div class="product">
+            <img src="images/sp49.jpg" alt="Product 40">
+            <h5>"RADHAI"</h5>
+            <h1>SP49</h1>
+            <p>Banarasi side slit kurti✨</p>
+            <div class="price-container"></div>
+            <p>&#8377;4999.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp50.jpg" alt="Product 41">
+            <h5>"THARA series-2"</h5>
+            <h1>SP49</h1>
+            <p>Banarasi side slit kurti✨</p>
+            <div class="price-container"></div>
+            <p>&#8377;2099.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp51.jpg" alt="Product 42">
+            <h5>"MEERA"</h5>
+            <h1>SP51</h1>
+            <p>Tricolour full length Anarkali ✨</p>
+            <div class="price-container"></div>
+            <p>&#8377;1799.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/SP52.jpg" alt="Product 43">
+            <h1>SP52</h1>
+            <p>Pink soft-net full-sleeve kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;999.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp53.jpg" alt="Product 44">
+            <h1>SP53</h1>
+            <p>  Full sleeve Kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp54.jpg" alt="Product 45">
+            <h1>SP54</h1>
+            <p> White cotton kurti with duppata</p>
+            <div class="price-container"></div>
+            <p>&#8377;1599.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp55.jpg" alt="Product 46">
+            <h5>"JESSY"</h5>
+            <h1>SP55</h1>
+            <p>: Red-netted Christmas Gown</p>
+            <div class="price-container"></div>
+            <p>&#8377;2099.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp57.jpg" alt="Product 47">
+            <h1>SP57</h1>
+            <p> Honeybee Kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp58.jpg" alt="Product 48">
+            <h1>SP58</h1>
+            <p>Full Sleeve Kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp59.jpg" alt="Product 49">
+            <h1>SP59</h1>
+            <p>Full Sleeve Kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp60.jpg" alt="Product 50">
+            <h1>SP60</h1>
+            <p>Banarasi side slit kurti
+                With elbow sleeves</p>
+            <div class="price-container"></div>
+            <p>&#8377;1299.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp61.jpg" alt="Product 51">
+            <h1>SP61</h1>
+            <p>Traditional pink-blue Full stitched Half-saree</p>
+            <div class="price-container"></div>
+            <p>&#8377;2599.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp62.jpg" alt="Product 52">
+            <h1>SP62</h1>
+            <p>Full Sleeve Kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp63.jpg" alt="Product 53">
+            <h1>SP63</h1>
+            <p>Butta silk side slit kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp64.jpg" alt="Product 54">
+            <h1>SP64</h1>
+            <p>Glass georgette full sleeve kurti with Chiffon duppata set</p>
+            <div class="price-container"></div>
+            <p>&#8377;1499.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp65.jpg" alt="Product 53">
+            <h1>SP65</h1>
+            <p>Full Georgette Anarkali with sequence netted duppata </p>
+            <div class="price-container"></div>
+            <p>&#8377;1799.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp66.jpg" alt="Product 54">
+            <h1>SP67</h1>
+            <p>Georgette full sleeve kurti</p>
+            <div class="price-container"></div>
+            <p>&#8377;1199.00</p>
+            
+        </div>
+        <div class="product">
+            <img src="images/sp67.jpg" alt="Product 55">
+            <h1>SP67</h1>
+            <p>Banarasi side slit kurti </p>
+            <div class="price-container"></div>
+            <p>&#8377;1299.00</p>
+            
+        </div>
+       
         <!-- Add more product divs as needed -->
-
     </main>
-
-    <footer>
-        <p>&copy; 2024 Spoya.in </p>
-    </footer>
-   
 
 </body>
 </html>
